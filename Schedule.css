@@ -1,1 +1,10 @@
-
+th {
+    border-color:blue;
+    border-width:3px;
+    border-style:solid;
+}
+tr {
+    border-color:blue;
+    border-width:3px;
+    border-style:solid;
+}
