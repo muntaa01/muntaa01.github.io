@@ -3,30 +3,29 @@
   </head>
   <body>
     <label for="celci"Degrees Celcius</label>
-    <input type="range" min=-40 max=140 id="celci" value=0>
+    <input type="range" min=-40 max=140 id="celci" onmousemove="changetemp();" value=0>
     
     <h1 id="degreesc">Degrees C: 0</h1>
     <h1 id="degreesf">Degrees F: 32</h1>
-  
+      
   
   
   
   
   </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <script>
+    changetemp=Function() {
+      theslide=document.querySelector("#celci").value
+      c=theslider.value;
+      f=c*1.8 + 32;
+      ch1=document.querySelector("degreesc");
+      fh1=document.querySelector("degreesf");
+      ch1.innerHTML=c
+      fh1.innerHTML=f
+    }
+    
+    
+  </script>
 
 
 
