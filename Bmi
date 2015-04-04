@@ -1,1 +1,33 @@
+<html>
+<head>
+</head>
+<body>
 
+<button onclick="calc();">Calculate </button>
+</body>
+
+<script>
+  
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
