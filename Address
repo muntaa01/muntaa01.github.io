@@ -1,1 +1,28 @@
+<html>
+<head>
+</head>
+<body>
+<ul id="list"></ul>
+<input type="text" value="First Name" size="40" id="first">
+<input type="text" value="Last Name" size="40" id="last">
+<input type="text" value="Phone Number" size="40" id="phone">
+<input type="text" value="Email" size="40" id="email">
+<button onclick="add();"
+</body>
 
+<script>
+  add=function() {
+    thelist=document.querySelector("#list")
+    
+    newitem=document.createElement("li")
+    newitem.innerHTML
+      
+  
+
+</script>
+
+
+
+
+
+</html>
